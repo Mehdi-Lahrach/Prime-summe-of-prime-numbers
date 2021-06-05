@@ -27,7 +27,7 @@ int main()
             {
                 nbrprime++; //this is how many prime numbers we add it so it gives us a prime number
                 sum += nbr; // add the prime number to sum
-                std::cout << "\n\n\tnbr prime = " << nbrprime;
+                std::cout << "\n\n\tnbr prime = " << nbrprime; //for faster compilation time you can delete this line 
                 if (isPrime(sum))
                 {
                     std::cout << "\n\n\tPrime somme  = " << sum;
@@ -37,5 +37,8 @@ int main()
             nbr++; // incrimant nbr to test a nother number 
     }
   
+    
+    
+    
     std::cin.get();
 }
